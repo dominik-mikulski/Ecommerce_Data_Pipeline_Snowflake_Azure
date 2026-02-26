@@ -25,12 +25,16 @@ The warehouse is divided into four schemas:
 
 Separate warehouses and roles are used to isolate responsibilities:
 
-**Warehouses** - `INGEST_WH` -- dedicated to Snowpipe and RAW loading\
+**Warehouses** 
+- `INGEST_WH` -- dedicated to Snowpipe and RAW loading\
 - `TRANSFORM_WH` -- used for staged and curated transformations
+- `ANALYST_WH` -- used for querying curated layer
 
-**Roles** - `INGEST_ROLE` -- privileges limited to RAW schema and
-ingestion objects\
-- `TRANSFORM_ROLE` -- read from RAW, write to STAGED/CURATED\
+
+**Roles** 
+- `INGEST_ROLE` -- privileges limited to RAW schema and
+ingestion objects
+- `TRANSFORM_ROLE` -- read from RAW, write to STAGED/CURATED
 - `ANALYST_ROLE` -- read-only access to CURATED schema
 
 Privileges follow the principle of least privilege.
@@ -39,8 +43,8 @@ Privileges follow the principle of least privilege.
 
 ## Data Flow
 
-1.  JSON files land in Azure Blob Storage.\
-2.  Snowpipe loads data into `RAW.orders_raw`.\
+1.  JSON files land in Azure Blob Storage.
+2.  Snowpipe loads data into `RAW.orders_raw`.
 3.  A task processes a stream on the raw table and builds:
     -   `stg_orders`
     -   `stg_order_items`
@@ -66,7 +70,7 @@ Processing is fully incremental via stream consumption.
 -   Deterministic audit logging
   
 ![Pipeline Audit logs example](./screenshots/pipeline_audit.png)
-![Warehouse isolation cost transparency example](./screenshots/Cost Transparency.png)
+![Cost Transparency example](./screenshots/cost_transparency.png)
 
 ------------------------------------------------------------------------
 
