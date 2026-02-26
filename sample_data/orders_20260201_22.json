@@ -1,0 +1,402 @@
+[
+  {
+    "order_id": 141,
+    "customer": {
+      "customer_id": 210,
+      "segment": "B2B",
+      "loyalty_tier": "GOLD"
+    },
+    "order_date": "2026-02-01 22:00:00",
+    "status": "DELIVERED",
+    "payment": {
+      "method": "CARD",
+      "currency": "EUR",
+      "amount": 665.75
+    },
+    "items": [
+      {
+        "product_id": 1222,
+        "category": "office",
+        "quantity": 2,
+        "unit_price": 91.52
+      },
+      {
+        "product_id": 1027,
+        "category": "home",
+        "quantity": 1,
+        "unit_price": 482.71
+      }
+    ],
+    "shipping": {
+      "country": "ES",
+      "city": "City_39",
+      "delivery_type": "EXPRESS"
+    }
+  },
+  {
+    "order_id": 142,
+    "customer": {
+      "customer_id": 241,
+      "segment": "B2C",
+      "loyalty_tier": "GOLD"
+    },
+    "order_date": "2026-02-01 22:00:00",
+    "status": "CANCELLED",
+    "payment": {
+      "method": "CARD",
+      "currency": "EUR",
+      "amount": 2303.67
+    },
+    "items": [
+      {
+        "product_id": 1144,
+        "category": "toys",
+        "quantity": 3,
+        "unit_price": 226.69
+      },
+      {
+        "product_id": 1121,
+        "category": "books",
+        "quantity": 1,
+        "unit_price": 396.04
+      },
+      {
+        "product_id": 1025,
+        "category": "home",
+        "quantity": 4,
+        "unit_price": 306.89
+      }
+    ],
+    "shipping": {
+      "country": "PL",
+      "city": "City_25",
+      "delivery_type": "EXPRESS"
+    }
+  },
+  {
+    "order_id": 143,
+    "customer": {
+      "customer_id": 100,
+      "segment": "B2C",
+      "loyalty_tier": "BRONZE"
+    },
+    "order_date": "2026-02-01 22:00:00",
+    "status": "DELIVERED",
+    "payment": {
+      "method": "CARD",
+      "currency": "EUR",
+      "amount": 1810.47
+    },
+    "items": [
+      {
+        "product_id": 1044,
+        "category": "office",
+        "quantity": 3,
+        "unit_price": 356.58
+      },
+      {
+        "product_id": 1245,
+        "category": "office",
+        "quantity": 2,
+        "unit_price": 62.26
+      },
+      {
+        "product_id": 1049,
+        "category": "office",
+        "quantity": 1,
+        "unit_price": 223.43
+      },
+      {
+        "product_id": 1105,
+        "category": "fitness",
+        "quantity": 2,
+        "unit_price": 196.39
+      }
+    ],
+    "shipping": {
+      "country": "NL",
+      "city": "City_18",
+      "delivery_type": "STANDARD"
+    }
+  },
+  {
+    "order_id": 144,
+    "customer": {
+      "customer_id": 178,
+      "segment": "B2C",
+      "loyalty_tier": "BRONZE"
+    },
+    "order_date": "2026-02-01 22:00:00",
+    "status": "CANCELLED",
+    "payment": {
+      "method": "PAYPAL",
+      "currency": "EUR",
+      "amount": 3975.0
+    },
+    "items": [
+      {
+        "product_id": 1241,
+        "category": "books",
+        "quantity": 4,
+        "unit_price": 323.08
+      },
+      {
+        "product_id": 1135,
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 445.82
+      },
+      {
+        "product_id": 1278,
+        "category": "office",
+        "quantity": 4,
+        "unit_price": 483.96
+      },
+      {
+        "product_id": 1094,
+        "category": "books",
+        "quantity": 3,
+        "unit_price": 100.34
+      }
+    ],
+    "shipping": {
+      "country": "IT",
+      "city": "City_14",
+      "delivery_type": "EXPRESS"
+    }
+  },
+  {
+    "order_id": 145,
+    "customer": {
+      "customer_id": 111,
+      "segment": "B2C",
+      "loyalty_tier": "PLATINUM"
+    },
+    "order_date": "2026-02-01 22:00:00",
+    "status": "NEW",
+    "payment": {
+      "method": "CARD",
+      "currency": "EUR",
+      "amount": 827.19
+    },
+    "items": [
+      {
+        "product_id": 1225,
+        "category": "electronics",
+        "quantity": 4,
+        "unit_price": 153.75
+      },
+      {
+        "product_id": 1134,
+        "category": "office",
+        "quantity": 2,
+        "unit_price": 49.42
+      },
+      {
+        "product_id": 1137,
+        "category": "books",
+        "quantity": 5,
+        "unit_price": 22.67
+      }
+    ],
+    "shipping": {
+      "country": "DE",
+      "city": "City_36",
+      "delivery_type": "STANDARD"
+    }
+  },
+  {
+    "order_id": 146,
+    "customer": {
+      "customer_id": 188,
+      "segment": "B2C",
+      "loyalty_tier": "BRONZE"
+    },
+    "order_date": "2026-02-01 22:00:00",
+    "status": "SHIPPED",
+    "payment": {
+      "method": "PAYPAL",
+      "currency": "EUR",
+      "amount": 5442.41
+    },
+    "items": [
+      {
+        "product_id": 1116,
+        "category": "toys",
+        "quantity": 5,
+        "unit_price": 300.97
+      },
+      {
+        "product_id": 1031,
+        "category": "toys",
+        "quantity": 4,
+        "unit_price": 107.18
+      },
+      {
+        "product_id": 1267,
+        "category": "home",
+        "quantity": 4,
+        "unit_price": 395.39
+      },
+      {
+        "product_id": 1274,
+        "category": "office",
+        "quantity": 4,
+        "unit_price": 481.82
+      }
+    ],
+    "shipping": {
+      "country": "FR",
+      "city": "City_50",
+      "delivery_type": "STANDARD"
+    }
+  },
+  {
+    "order_id": 147,
+    "customer": {
+      "customer_id": 201,
+      "segment": "B2C",
+      "loyalty_tier": "PLATINUM"
+    },
+    "order_date": "2026-02-01 22:00:00",
+    "status": "SHIPPED",
+    "payment": {
+      "method": "CARD",
+      "currency": "EUR",
+      "amount": 1571.2
+    },
+    "items": [
+      {
+        "product_id": 1257,
+        "category": "home",
+        "quantity": 5,
+        "unit_price": 314.24
+      }
+    ],
+    "shipping": {
+      "country": "BE",
+      "city": "City_3",
+      "delivery_type": "STANDARD"
+    }
+  },
+  {
+    "order_id": 148,
+    "customer": {
+      "customer_id": 142,
+      "segment": "B2B",
+      "loyalty_tier": "SILVER"
+    },
+    "order_date": "2026-02-01 22:00:00",
+    "status": "NEW",
+    "payment": {
+      "method": "INVOICE",
+      "currency": "EUR",
+      "amount": 1553.64
+    },
+    "items": [
+      {
+        "product_id": 1098,
+        "category": "electronics",
+        "quantity": 2,
+        "unit_price": 292.74
+      },
+      {
+        "product_id": 1021,
+        "category": "home",
+        "quantity": 4,
+        "unit_price": 242.04
+      }
+    ],
+    "shipping": {
+      "country": "FR",
+      "city": "City_34",
+      "delivery_type": "STANDARD"
+    }
+  },
+  {
+    "order_id": 149,
+    "customer": {
+      "customer_id": 137,
+      "segment": "B2C",
+      "loyalty_tier": "BRONZE"
+    },
+    "order_date": "2026-02-01 22:00:00",
+    "status": "DELIVERED",
+    "payment": {
+      "method": "PAYPAL",
+      "currency": "EUR",
+      "amount": 3187.98
+    },
+    "items": [
+      {
+        "product_id": 1163,
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 109.74
+      },
+      {
+        "product_id": 1044,
+        "category": "office",
+        "quantity": 4,
+        "unit_price": 356.58
+      },
+      {
+        "product_id": 1284,
+        "category": "office",
+        "quantity": 4,
+        "unit_price": 412.98
+      }
+    ],
+    "shipping": {
+      "country": "IT",
+      "city": "City_21",
+      "delivery_type": "STANDARD"
+    }
+  },
+  {
+    "order_id": 150,
+    "customer": {
+      "customer_id": 233,
+      "segment": "B2C",
+      "loyalty_tier": "PLATINUM"
+    },
+    "order_date": "2026-02-01 22:00:00",
+    "status": "NEW",
+    "payment": {
+      "method": "INVOICE",
+      "currency": "EUR",
+      "amount": 2479.93
+    },
+    "items": [
+      {
+        "product_id": 1057,
+        "category": "books",
+        "quantity": 4,
+        "unit_price": 99.1
+      },
+      {
+        "product_id": 1076,
+        "category": "home",
+        "quantity": 2,
+        "unit_price": 69.12
+      },
+      {
+        "product_id": 1290,
+        "category": "electronics",
+        "quantity": 5,
+        "unit_price": 321.35
+      },
+      {
+        "product_id": 1298,
+        "category": "books",
+        "quantity": 1,
+        "unit_price": 338.54
+      }
+    ],
+    "shipping": {
+      "country": "PL",
+      "city": "City_30",
+      "delivery_type": "EXPRESS"
+    }
+  }
+]

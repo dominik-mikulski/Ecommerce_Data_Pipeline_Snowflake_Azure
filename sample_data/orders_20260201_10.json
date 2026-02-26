@@ -1,0 +1,336 @@
+[
+  {
+    "order_id": 21,
+    "customer": {
+      "customer_id": 210,
+      "segment": "B2B",
+      "loyalty_tier": "GOLD"
+    },
+    "order_date": "2026-02-01 10:00:00",
+    "status": "DELIVERED",
+    "payment": {
+      "method": "CARD",
+      "currency": "EUR",
+      "amount": 2186.82
+    },
+    "items": [
+      {
+        "product_id": 1066,
+        "category": "toys",
+        "quantity": 4,
+        "unit_price": 358.8
+      },
+      {
+        "product_id": 1272,
+        "category": "books",
+        "quantity": 2,
+        "unit_price": 375.81
+      }
+    ],
+    "shipping": {
+      "country": "ES",
+      "city": "City_39",
+      "delivery_type": "FREIGHT"
+    }
+  },
+  {
+    "order_id": 22,
+    "customer": {
+      "customer_id": 110,
+      "segment": "B2B",
+      "loyalty_tier": "BRONZE"
+    },
+    "order_date": "2026-02-01 10:00:00",
+    "status": "CANCELLED",
+    "payment": {
+      "method": "PAYPAL",
+      "currency": "EUR",
+      "amount": 2456.46
+    },
+    "items": [
+      {
+        "product_id": 1009,
+        "category": "home",
+        "quantity": 4,
+        "unit_price": 232.8
+      },
+      {
+        "product_id": 1039,
+        "category": "toys",
+        "quantity": 3,
+        "unit_price": 191.58
+      },
+      {
+        "product_id": 1294,
+        "category": "electronics",
+        "quantity": 4,
+        "unit_price": 159.14
+      },
+      {
+        "product_id": 1293,
+        "category": "electronics",
+        "quantity": 4,
+        "unit_price": 78.49
+      }
+    ],
+    "shipping": {
+      "country": "NL",
+      "city": "City_30",
+      "delivery_type": "EXPRESS"
+    }
+  },
+  {
+    "order_id": 23,
+    "customer": {
+      "customer_id": 105,
+      "segment": "B2B",
+      "loyalty_tier": "SILVER"
+    },
+    "order_date": "2026-02-01 10:00:00",
+    "status": "NEW",
+    "payment": {
+      "method": "CARD",
+      "currency": "EUR",
+      "amount": 952.07
+    },
+    "items": [
+      {
+        "product_id": 1087,
+        "category": "books",
+        "quantity": 5,
+        "unit_price": 32.3
+      },
+      {
+        "product_id": 1235,
+        "category": "office",
+        "quantity": 3,
+        "unit_price": 135.11
+      },
+      {
+        "product_id": 1045,
+        "category": "office",
+        "quantity": 4,
+        "unit_price": 96.31
+      }
+    ],
+    "shipping": {
+      "country": "ES",
+      "city": "City_38",
+      "delivery_type": "FREIGHT"
+    }
+  },
+  {
+    "order_id": 24,
+    "customer": {
+      "customer_id": 202,
+      "segment": "B2B",
+      "loyalty_tier": "SILVER"
+    },
+    "order_date": "2026-02-01 10:00:00",
+    "status": "DELIVERED",
+    "payment": {
+      "method": "CARD",
+      "currency": "EUR",
+      "amount": 518.04
+    },
+    "items": [
+      {
+        "product_id": 1202,
+        "category": "fitness",
+        "quantity": 3,
+        "unit_price": 172.68
+      }
+    ],
+    "shipping": {
+      "country": "PL",
+      "city": "City_30",
+      "delivery_type": "STANDARD"
+    }
+  },
+  {
+    "order_id": 25,
+    "customer": {
+      "customer_id": 119,
+      "segment": "B2C",
+      "loyalty_tier": "SILVER"
+    },
+    "order_date": "2026-02-01 10:00:00",
+    "status": "SHIPPED",
+    "payment": {
+      "method": "PAYPAL",
+      "currency": "EUR",
+      "amount": 2420.1
+    },
+    "items": [
+      {
+        "product_id": 1271,
+        "category": "office",
+        "quantity": 5,
+        "unit_price": 484.02
+      }
+    ],
+    "shipping": {
+      "country": "ES",
+      "city": "City_25",
+      "delivery_type": "FREIGHT"
+    }
+  },
+  {
+    "order_id": 26,
+    "customer": {
+      "customer_id": 137,
+      "segment": "B2C",
+      "loyalty_tier": "BRONZE"
+    },
+    "order_date": "2026-02-01 10:00:00",
+    "status": "SHIPPED",
+    "payment": {
+      "method": "INVOICE",
+      "currency": "EUR",
+      "amount": 611.34
+    },
+    "items": [
+      {
+        "product_id": 1052,
+        "category": "electronics",
+        "quantity": 2,
+        "unit_price": 146.67
+      },
+      {
+        "product_id": 1131,
+        "category": "toys",
+        "quantity": 2,
+        "unit_price": 159.0
+      }
+    ],
+    "shipping": {
+      "country": "IT",
+      "city": "City_21",
+      "delivery_type": "FREIGHT"
+    }
+  },
+  {
+    "order_id": 27,
+    "customer": {
+      "customer_id": 119,
+      "segment": "B2C",
+      "loyalty_tier": "SILVER"
+    },
+    "order_date": "2026-02-01 10:00:00",
+    "status": "CANCELLED",
+    "payment": {
+      "method": "INVOICE",
+      "currency": "EUR",
+      "amount": 2678.4
+    },
+    "items": [
+      {
+        "product_id": 1252,
+        "category": "electronics",
+        "quantity": 4,
+        "unit_price": 456.2
+      },
+      {
+        "product_id": 1288,
+        "category": "fitness",
+        "quantity": 5,
+        "unit_price": 170.72
+      }
+    ],
+    "shipping": {
+      "country": "ES",
+      "city": "City_25",
+      "delivery_type": "FREIGHT"
+    }
+  },
+  {
+    "order_id": 28,
+    "customer": {
+      "customer_id": 180,
+      "segment": "B2C",
+      "loyalty_tier": "GOLD"
+    },
+    "order_date": "2026-02-01 10:00:00",
+    "status": "DELIVERED",
+    "payment": {
+      "method": "PAYPAL",
+      "currency": "EUR",
+      "amount": 2129.55
+    },
+    "items": [
+      {
+        "product_id": 1225,
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 153.75
+      },
+      {
+        "product_id": 1240,
+        "category": "books",
+        "quantity": 4,
+        "unit_price": 493.95
+      }
+    ],
+    "shipping": {
+      "country": "FR",
+      "city": "City_11",
+      "delivery_type": "EXPRESS"
+    }
+  },
+  {
+    "order_id": 29,
+    "customer": {
+      "customer_id": 229,
+      "segment": "B2C",
+      "loyalty_tier": "SILVER"
+    },
+    "order_date": "2026-02-01 10:00:00",
+    "status": "CANCELLED",
+    "payment": {
+      "method": "CARD",
+      "currency": "EUR",
+      "amount": 1329.0
+    },
+    "items": [
+      {
+        "product_id": 1158,
+        "category": "electronics",
+        "quantity": 4,
+        "unit_price": 332.25
+      }
+    ],
+    "shipping": {
+      "country": "NL",
+      "city": "City_45",
+      "delivery_type": "EXPRESS"
+    }
+  },
+  {
+    "order_id": 30,
+    "customer": {
+      "customer_id": 173,
+      "segment": "B2C",
+      "loyalty_tier": "BRONZE"
+    },
+    "order_date": "2026-02-01 10:00:00",
+    "status": "CANCELLED",
+    "payment": {
+      "method": "PAYPAL",
+      "currency": "EUR",
+      "amount": 2415.4
+    },
+    "items": [
+      {
+        "product_id": 1046,
+        "category": "fitness",
+        "quantity": 5,
+        "unit_price": 483.08
+      }
+    ],
+    "shipping": {
+      "country": "IT",
+      "city": "City_6",
+      "delivery_type": "EXPRESS"
+    }
+  }
+]

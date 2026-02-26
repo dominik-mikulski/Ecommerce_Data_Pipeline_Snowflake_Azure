@@ -1,0 +1,47 @@
+-- =====================================================
+-- 02_WAREHOUSES.sql
+-- Purpose: create compute resource (warehouses) for the 4 roles we created to have cost transparency
+-- We pick XSMALL warehouse, which suspend after 180 sec of idle time, with reource monitor, that will stop queries if they run > 180 second and finally that will be suspended initially
+-- Required role: ACCOUNTADMIN
+-- =====================================================
+
+USE ROLE ACCOUNTADMIN;
+
+CREATE WAREHOUSE IF NOT EXISTS WH_ADMIN 
+WITH 
+  WAREHOUSE_SIZE = XSMALL
+  GENERATION = '2'
+  AUTO_SUSPEND = 180
+  RESOURCE_MONITOR = RM_ECOMMERCE_DAILY_3C
+  STATEMENT_TIMEOUT_IN_SECONDS = 180
+  INITIALLY_SUSPENDED = TRUE;
+
+CREATE WAREHOUSE IF NOT EXISTS WH_INGEST 
+WITH 
+  WAREHOUSE_SIZE = XSMALL
+  GENERATION = '2'
+  AUTO_SUSPEND = 180
+  RESOURCE_MONITOR = RM_ECOMMERCE_DAILY_3C
+  STATEMENT_TIMEOUT_IN_SECONDS = 180
+  INITIALLY_SUSPENDED = TRUE;
+
+CREATE WAREHOUSE IF NOT EXISTS WH_TRANSFORM 
+WITH 
+  WAREHOUSE_SIZE = XSMALL
+  GENERATION = '2'
+  AUTO_SUSPEND = 180
+  RESOURCE_MONITOR = RM_ECOMMERCE_DAILY_3C
+  STATEMENT_TIMEOUT_IN_SECONDS = 180
+  INITIALLY_SUSPENDED = TRUE;
+
+CREATE WAREHOUSE IF NOT EXISTS WH_ANALYST
+WITH 
+  WAREHOUSE_SIZE = XSMALL
+  GENERATION = '2'
+  AUTO_SUSPEND = 180
+  RESOURCE_MONITOR = RM_ECOMMERCE_DAILY_3C
+  STATEMENT_TIMEOUT_IN_SECONDS = 180
+  INITIALLY_SUSPENDED = TRUE;
+
+-- List WAREHOUSEs in account, with config
+SHOW WAREHOUSES LIKE 'WH%';
