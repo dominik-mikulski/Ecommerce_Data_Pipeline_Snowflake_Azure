@@ -113,13 +113,6 @@ This is a focused learning implementation designed to demonstrate
 architecture and governance patterns rather than production hardening
 (no CI/CD or external orchestration).
 
-
-## Scope
-
-This is a focused learning implementation designed to demonstrate
-architecture and governance patterns rather than production hardening
-(no CI/CD or external orchestration).
-
 **Dominik Mikulski**  
 Expanding hands-on data engineering capabilities alongside 12 years of analytics leadership
 [LinkedIn](https://www.linkedin.com/in/dominikmikulski/) | [dominik.mikulski@gmail.com](mailto:dominik.mikulski@gmail.com)
